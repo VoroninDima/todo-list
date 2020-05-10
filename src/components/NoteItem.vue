@@ -32,10 +32,6 @@ export default {
       todos: {
         type: Array,
         required: true
-      },
-      checked: {
-        type: Boolean,
-        required: true
       }
     },
     noteId: {

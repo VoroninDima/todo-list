@@ -86,8 +86,7 @@
         if (!this.emptyTitleError && this.todosList.length) {
           const newNote = {
             title: this.title,
-            todos: this.todosList,
-            checked: false
+            todos: this.todosList
           };
 
           this.ADD_NOTE_ACTION(newNote);
